@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "HMM and Baum Welch Algorithm"
-categories: Machine Learning
-tags:  algorithms, Machine Learning
+categories: Machine_Learning
+tags:  algorithms machine_learning
 author: Ziwei Zhu
 ---
 
@@ -29,10 +29,10 @@ Therefore, we can describe a HMM by: λ = (A,B,π ).
 
 
 ## Conditional Independence Assumptions
-![](https://github.com/Zziwei/Zziwei.github.io/blob/master/_resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/conditional%20independence%20assumptions.PNG)
+![]({{ site.url }}/resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/conditional%20independence%20assumptions.PNG)
 
 ## Model Training
-![](https://github.com/Zziwei/Zziwei.github.io/blob/master/_resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/model%20training%20objective%20formular.PNG)
+![]({{ site.url }}/resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/model%20training%20objective%20formular.PNG)
 that is, find the HMM λ, that maximizes the probability of the observation sequence O.
 
 ### Two probabilities for training
@@ -47,16 +47,16 @@ Compute P(Qt = i, Qt+1 = j | O, λ) denoted as 𝜉𝑖𝑗(𝑡).
 Compute P(Qt = i, O1…t | λ), denoted as α𝑖(𝑡).
 The probability of seeing the partial sequence O1…Ot and the tth state Qt = i, given the model λ
 
-![](https://github.com/Zziwei/Zziwei.github.io/blob/master/_resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/forward%20alg..PNG)
+![]({{ site.url }}/resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/forward%20alg..PNG)
 
 ## Backward Algorithm
 Compute P(Ot + 1 … T | Qt = i, λ), Marked as 𝛽𝑖(𝑡).
 The probability of seeing the ending partial sequence Ot + 1…OT , given the tth state Qt = i and the model λ.
 
-![](https://github.com/Zziwei/Zziwei.github.io/blob/master/_resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/backward%20alg..PNG)
+![]({{ site.url }}/resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/backward%20alg..PNG)
 
 ## Baum Welch Algorithm
-![](https://github.com/Zziwei/Zziwei.github.io/blob/master/_resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/baum%20welch%20alg..PNG)
+![]({{ site.url }}/resources/2017-02-24-HMM-and-Baum-Welch-Algorithm/baum%20welch%20alg..PNG)
 
 ## Reference
 
