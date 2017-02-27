@@ -19,7 +19,7 @@ A Hidden Markov Model is a probabilistic model of the joint probability of a col
 
 1. Qt is a discrete random variable with N possible values {1….N}.
 2. The observation is one of L possible observation symbols, Ot ∈ { o1 . . . oL }. 
-3. Transition matrix A = {aij} = P(Qt = j | Qt-1 = i}, is an N by N matrix.
+3. Transition matrix A = {aij} = P(Qt = j|Qt-1 = i}, is an N by N matrix.
 4. The special case of time t = 1 is described by the initial state distribution πi = P(Q1 = i).
 5. The probability of a particular observation vector at a particular time t for state j is described by: 
 <p align='center'>bj(Ot) = P(Ot = ot | Qt = j). (B={bij} is an L by N matrix).</p>
