@@ -29,15 +29,19 @@ The main idea is the function decreases at the fastest speed towards the opposit
 ![]({{ site.url }}/resources/2017-05-03-Least%20squares%20and%20four%20unconstrained%20optimization%20algs/gradient descent.png)
 
 ## Gauss Newton Method
+
+### Vectorize objective function
 First vectorize the cost function.
 ![]({{ site.url }}/resources/2017-05-03-Least%20squares%20and%20four%20unconstrained%20optimization%20algs/gauss-newton1.png)
 
-Then, based on the mian idea that the optimal parameters 𝒂 that minimize the cost function 𝜀 has to satisfy the equation that the gradient vector is equal to zero, we get the followings.
+### Zero gradient
+Then, based on the main idea that the optimal parameters 𝒂 that minimize the cost function 𝜀 has to satisfy the equation that the gradient vector is equal to zero, we get the followings.
 ![]({{ site.url }}/resources/2017-05-03-Least%20squares%20and%20four%20unconstrained%20optimization%20algs/gauss-newton2.png)
 
 Rewrite the expressions.
 ![]({{ site.url }}/resources/2017-05-03-Least%20squares%20and%20four%20unconstrained%20optimization%20algs/gauss-newton3.png)
 
+### Iterative rule from Taylor expansion and zero gradient
 It is very hard to find a closed form solution to this expression. So we need a iterative method to find the optimal solution. The basic idea of iterative is adding some changes to the current coefficients to get better ones closer to the optimum ones.
 ![]({{ site.url }}/resources/2017-05-03-Least%20squares%20and%20four%20unconstrained%20optimization%20algs/gauss-newton4.png)
 
@@ -54,6 +58,7 @@ Combine these two expressions together to generate the iterative method for find
 Now we got the rule of updating.
 ∆𝒂= 𝑱^− (𝒚 −𝒇(𝒂^((𝒌))))
 
+### Algorithm
 The algorithm can be summerized as belowing.
 ![]({{ site.url }}/resources/2017-05-03-Least%20squares%20and%20four%20unconstrained%20optimization%20algs/gauss-newton11.png)
 
