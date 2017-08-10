@@ -11,7 +11,7 @@ type: page
 
 ## About me
 <div style="text-align: center;"><img src="https://zziwei.github.io/resources/me.PNG"/></div>
-<p style="text-align: center;">HY and I under the sea</p>
+<p style="text-align: center;"><a link="https://www.yuehe-aurora.com/">HY</a> and I under the sea</p>
 
 <iframe src="https://githubbadge.appspot.com/Zziwei?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
