@@ -10,7 +10,7 @@ type: page
 {:toc}
 
 ## About me
-![]({{ site.url }}/resources/me.PNG)
+<div style="text-align: center;"><img src="https://zziwei.github.io/resources/me.PNG"/></div>
 <p style="text-align: center;">HY and I under the sea</p>
 
 <iframe src="https://githubbadge.appspot.com/Zziwei?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
@@ -26,6 +26,8 @@ I love movies of almost all cetagories. TV series such as GoT, Sillicon Valley a
 * 2015.8-2015.12 Exchange student in Texas A&M University, ECE department.
 * 2012-2016 Got Third-level scholarship, Notional Scholarship (2/200) and First-level scholarship
 * 2012.6 Graduated from The Attached Middle School of Jiangxi Normal University.
+
+### [Resume]({{ site.url }}/resources/cv.pdf)
 
 ## Contact me
 
