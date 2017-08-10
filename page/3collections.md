@@ -9,7 +9,7 @@ type: page
 * content
 {:toc}
 
-## Publications
+## My Publications
 * [Modeling and detecting student attention and interest level using wearable computers.](http://jafari.tamu.edu/wp-content/uploads/2017/06/Ziwei_BSN_2017.pdf) BSN 2017.
 
 ## Books Recommendation
