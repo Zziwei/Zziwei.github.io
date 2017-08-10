@@ -13,12 +13,12 @@ type: page
 
 <iframe src="https://githubbadge.appspot.com/Zziwei?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
-# Introduce myself
+### Introduce myself
 Ph.D. candidate in Computer Science and Engineering Department, Texas A&M University. Have research experience on signal processing and data analysis for wearable IMUs. Research interests lay on machine learning and data mining techniques for social media and movies recommendation. Experienced at software developments on several different platforms.
 
 I love movies of almost all cetagories. TV series such as GoT, Sillicon Valley and so on are also my loves! Recently fall in love with Chinese modern history, and I watched a lot of documentory films about it.
 
-# Big moments for me
+### Big moments for me
 * 2016.8-2017.8 Ph.D student in CSE department in TAMU, research assistant in ESP lab.
 * 2016.6 Graduated from Wuhan University, Computer School.
 * 2015.8-2015.12 Exchange student in Texas A&M University, ECE department.
