@@ -9,7 +9,7 @@ author: Ziwei Zhu
 * content
 {:toc}
 
-This article is for the homework for CSCE670.
+This article is for the homework for CSCE670. My NetID is zhuziwei.
 
 
 ## kbeznak parmatonic
