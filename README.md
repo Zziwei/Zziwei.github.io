@@ -1,5 +1,4 @@
 # Zziwei.github.io
-Ziwei Zhu (William)
-Research assistant in Info lab , Texas A&M University. Research interests lay on recommender systems. Experienced at software developments on several different platforms.
+Ziwei Zhu
+Final-year Ph.D. candidate at the Department of Computer Science and Engineering at Texas A&M University.
 
-Runing on Github + Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
